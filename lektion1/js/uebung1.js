@@ -13,7 +13,9 @@
 function aufgabe2() {
   console.debug("Aufgabe 2 ==========================")
   console.debug(land)
+  //test
 }
+
 
 /**
  * 3) Erstelle die Variablen
