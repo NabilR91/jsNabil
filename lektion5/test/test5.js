@@ -1,5 +1,5 @@
 import {
-    artikelAuflisten, allesAuflisten, artikelEntfernen, sortieren
+    artikelAuflisten, allesAuflisten
 } from "../js/aufgaben/lektion5.js"
 
 function teste_artikelAuflisten() {
