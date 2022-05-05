@@ -9,6 +9,7 @@ function aufgabe1() {
   console.debug("Aufgabe 1 ==========================")
 
   //ToDo: füge ab hier Deinen Code ein
+  console.debug ("Diese Funktion kenne ich bereits!")
 }
 
 /**
@@ -19,7 +20,12 @@ function aufgabe2() {
 
   //ToDo: füge ab hier Deinen Code ein
 
-  sagHallo("Peter")
+function sagHallo( name )
+  {
+
+    console.debug("Hallo " + name)
+  }
+sagHallo(" Peter")
 }
 
 /**
@@ -31,6 +37,7 @@ function aufgabe3() {
   function sagBye(name) {
     console.debug("Bye " + name)
   }
+  sagBye ( "Peter")
 
   //ToDo: füge ab hier Deinen Code ein
 }
@@ -42,6 +49,11 @@ function aufgabe4() {
   console.debug("Aufgabe 4 ==========================");
 
   //ToDo: füge ab hier Deinen Code ein
+  function willkommenZurueck (name)
+  {
+    console.debug("Da bist du ja wieder " + name )
+  }
+  willkommenZurueck("Peter")
 }
 
 /**
@@ -52,9 +64,11 @@ function aufgabe5() {
 
   function multiplizieren(a, b) {
     //ToDo: füge ab hier Deinen Code ein
+    return a*b
   }
-
-  console.debug(multiplizieren(3, 5))
+var multiplikation = multiplizieren(2, 8)
+  //console.debug(multiplizieren(3, 5))
+  console.debug ( multiplikation )
 }
 
 /**
@@ -64,6 +78,7 @@ function aufgabe6() {
   console.debug("Aufgabe 6 ==========================");
 
   //ToDo: füge ab hier Deinen Code ein
+  function fakultaet(a)
 
   console.debug(fakultaet(5))
 }
@@ -77,6 +92,6 @@ function main() {
   aufgabe3()
   aufgabe4()
   aufgabe5()
-  aufgabe6()
+  //aufgabe6()
 }
 main()
